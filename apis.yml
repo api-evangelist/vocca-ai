@@ -1,8 +1,29 @@
 aid: vocca-ai
 name: Vocca Ai
-description: Vocca Ai is a company surfaced as a portfolio company of speedinvest and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Vocca is a healthcare voice-AI company (backed by Speedinvest) that builds AI
+  voice and text agents acting as a 24/7 receptionist for medical groups and
+  practices. Vocca handles inbound and outbound patient calls, appointment
+  bookings, reminders, and follow-ups across specialties including imaging,
+  dental, cardiology, gynecology, ophthalmology, anesthesiology, general
+  medicine, hospitals, and multi-practice clinics, so clinical teams spend less
+  time on admin and more time on care. The company operates a customer-facing
+  product with French and English coverage; it does not publish a public
+  developer portal, API reference, or machine-readable API specification, so
+  this profile carries company identity and website link-properties only.
 url: https://raw.githubusercontent.com/api-evangelist/vocca-ai/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://framerusercontent.com/assets/F8xaGHdUrHr4gEP3hzdVNLzrDE.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,12 +32,46 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Healthcare
+- Voice AI
+- Conversational AI
+- Artificial Intelligence
+- Medical
+- Patient Communications
+- Appointment Booking
+- Agents
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: Website
+  url: https://vocca.com/
+- type: Blog
+  url: https://vocca.com/blog
+- type: CaseStudies
+  url: https://vocca.com/case-study
+- type: PrivacyPolicy
+  url: https://vocca.com/privacy-policy
+- type: TermsOfService
+  url: https://vocca.com/terms-of-service
+- type: SignUp
+  url: https://calendly.com/eliott-vocca/30min
+- type: LinkedIn
+  url: https://www.linkedin.com/company/voccaai/
+- type: Twitter
+  url: https://x.com/Vocca_ai
+- type: YouTube
+  url: https://www.youtube.com/@VoccaAI/videos
+- type: DomainSecurity
+  url: security/vocca-ai-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
